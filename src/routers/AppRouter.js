@@ -43,7 +43,7 @@ export const AppRouter = () => {
   
     if( checkin ){
     return(
-      <h1>...Espere</h1>
+      <h1>...Loading</h1>
     )}
   
   

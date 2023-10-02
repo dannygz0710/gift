@@ -10,12 +10,12 @@ import Grid from "@material-ui/core/Grid";
 
 
 
-export const GifGriditem = ({ id, title, url }) => {
+export const GifGriditem = ({ title, url }) => {
 
 
 
   return (
-    <Grid item xs={12} sm={4}>
+    <Grid item xs={12}  sm={6} md={4} lg={3}>
     <Card>
       <CardMedia
         component="img"
